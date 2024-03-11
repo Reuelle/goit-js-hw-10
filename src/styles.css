@@ -66,9 +66,9 @@ body {
 
 .loader {
 	position: relative;
-	width: 100px;
+	width: 120px;
 	height: 16px;
-	margin-top: 10px;
+	margin-top: 15px;
   }
   .loader:before , .loader:after{
 	content: "";
