@@ -50,7 +50,7 @@ breedSelectEl.addEventListener("change", (e) => {
             <div class='box'>
                 <h2 style=" font-family: Arial, sans-serif; font-size:45px">${name}</h2>
                 <p style=" font-family: Arial, sans-serif; font-size:22px">${description}</p>
-                <p style=" font-family: Arial, sans-serif; font-size:17px">Temperament:${temperament}</p>
+                <p style=" font-family: Arial, sans-serif; font-size:17px"><span>Temperament:<span/>${temperament}</p>
             </div>
         `;
 			catInfoEl.classList.remove("is-hidden");
