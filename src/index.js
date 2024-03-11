@@ -65,5 +65,5 @@ function onError() {
 
 	//hide select element
 	breedSelectEl.classList.add("is-hidden");
-	Notify.failure('oops Something went wrong. Please try reloading the page.');
+	Notify.failure('oops Something went wrong. Please try reloading the page!');
 }
